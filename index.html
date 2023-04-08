@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Outfit&display=swap" rel="stylesheet">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -12,30 +15,52 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-    div {
+    .divj {
       background-color: hsl(0, 0%, 100%);
-      width: 23%;
-      height:450px;
       border-radius: 5%;
-      position: absolute;
-      top:50%;
-      left:50%;
+      text-align: center;
+      margin-top: auto auto auto auto;
+      display: inline-block;
+      padding:1.2%;
     }
     img{
       width:300px; 
       border-radius: 5%; 
       margin-top:auto;
-      
+      display: inline-block;
+  
+    }
+    .text1 {
+      line-height: 1;
+      line-break: auto;
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      font-weight: 900;
+
+    }
+
+    .text2 {
+      line-height: 1;
+      line-break: auto;
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: grey;
     }
 
   </style>
 </head>
-<body style="position:relative; background-color: hsl(212, 45%, 89%);">
-
-  <div>
-    <img src="images/image-qr-code.png" alt="QR code">
-    <h1>Improve your front end skills</h1>
-    <P>Scan the QR code to ecper</P>
+<body style="text-align: center; background-color: hsl(212, 45%, 89%); padding-top: 100px; padding-bottom: 100px;">
+  <div class="divj">
+    <div class="divimg">
+      <img src="images/image-qr-code.png" alt="QR code">
+    </div>
+    <div class="text1">
+      <h2>Improve your front-end<br>skills by building projects </h2>
+      </div>
+  <div class="text2">
+    <P>Scan the QR code to visit Frontend<br> Mentor and take your coding skills <br>to the next level</P>
+    </div>
   </div>
 
 
