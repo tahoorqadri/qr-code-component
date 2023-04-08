@@ -10,10 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -21,64 +18,38 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![Screenshot of the solution](./screenshot.jpeg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://tahoorqadri.github.io/qr-code-component-main/](https://tahoorqadri.github.io/qr-code-component-main/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
+- CSS
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+with this task some of my css position concepts got brushed up, including how the elements are displayed; the differnt layers of a webpage. It is rather a 3d implementation, in which the elements are stacked on top of their parent and so on.. 
 
-To see how you can add code snippets, see below:
+some code snippets below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<body style="text-align: center; background-color: hsl(212, 45%, 89%); padding-top: 100px; padding-bottom: 100px;">
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.divj {
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 5%;
+      text-align: center;
+      margin-top: auto auto auto auto;
+      display: inline-block;
+      padding:1.2%;
+    }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@tahoorqadri](https://www.frontendmentor.io/profile/tahoorqadri)
+- Twitter - [@tahoor_bilal](https://www.twitter.com/tahoor_bilal)
 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
